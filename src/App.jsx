@@ -1,9 +1,13 @@
-import React from 'react';
+
+
+
+import OutLet from './Components/MainLayout/OutLet/OutLet';
+import "./index.css"
 
 const App = () => {
   return (
     <div>
-        AKLKDFLKDSAJFL
+       <OutLet />
     </div>
   );
 };
