@@ -69,7 +69,7 @@ const NavBar = () => {
 
   return (
     <header className="relative">
-      <div className="fixed w-full top-20 left-0 right-0 bg-white shadow-md md:top-11">
+      <div className="fixed w-full top-24 left-0 right-0 bg-white shadow-md md:top-11">
         <nav className="text-xl flex justify-between items-center gap-3 px-2 py-1 md:px-10">
           {/* Logo  */}
           <div onClick={closeMenuHandeling}>
@@ -103,7 +103,7 @@ const NavBar = () => {
             </ul>
 
             {/* Mobile Menu Icon */}
-            <div className="block md:hidden text-xl cursor-pointer">
+            <div className="block md:hidden text-3xl cursor-pointer">
               <button onClick={openMenuHandeling}>
                 {openMenu ? <VscChromeClose /> : <IoMdMenu />}
               </button>

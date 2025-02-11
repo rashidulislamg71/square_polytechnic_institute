@@ -76,8 +76,8 @@ const Header = () => {
             </div>
           </div>
 
-          <div className="flex justify-between items-center gap-5">
-            <div className="divide-x-2 flex justify-center items-center gap-5">
+          <div className="flex justify-between items-center gap-2">
+            <div className="divide-x-2 flex justify-center items-center gap-2">
               <a
                 title="ফেসবুকে যান"
                 className="flex justify-center items-center pl-4"
@@ -91,7 +91,7 @@ const Header = () => {
               </a>
               <a
                 title="ইউটুবে যান"
-                className="flex justify-center items-center pl-4"
+                className="flex justify-center items-center pl-2"
                 href="#"
                 target="_blank"
               >
