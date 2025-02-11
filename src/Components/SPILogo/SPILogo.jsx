@@ -4,7 +4,7 @@ import styles from "./SPILogo.module.css";
 
 const SPILogo = () => {
     return (
-        <div className="flex justify-between items-center gap-1">
+        <div className="flex items-center gap-1">
             <img className={`${styles.logo}`} src={spi_logo} alt="Square Polytechnic institute Logo" />
             <b className={`${styles.logo_text}`} >Square Polytechnic Institute</b>
         </div>

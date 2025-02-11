@@ -37,7 +37,7 @@ const router = createBrowserRouter([
           element: <SuccessPage />,
         },
         {
-          path: "/notices",
+          path: "/notice",
           element: <NoticePage />,
         },
       

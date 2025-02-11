@@ -2,3 +2,8 @@
 .logo{
     width: 100px;
 }
+.navbar{
+    transition: 1s all;
+}
+.menu{
+}
