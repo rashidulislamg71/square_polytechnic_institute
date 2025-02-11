@@ -6,7 +6,7 @@ const SPILogo = () => {
     return (
         <div className="flex items-center gap-1">
             <img className={`${styles.logo}`} src={spi_logo} alt="Square Polytechnic institute Logo" />
-            <b className={`${styles.logo_text}`} >Square Polytechnic Institute</b>
+            <b className={`${styles.logo_text}`} >Square Polytechnic <br /> Institute</b>
         </div>
     );
 };

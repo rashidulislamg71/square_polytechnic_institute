@@ -80,7 +80,7 @@ const Header = () => {
             <div className="divide-x-2 flex justify-center items-center gap-2">
               <a
                 title="ফেসবুকে যান"
-                className="flex justify-center items-center pl-4"
+                className="flex justify-center items-center "
                 href="https://www.facebook.com/squarepolytechnic"
                 target="_blank"
               >
